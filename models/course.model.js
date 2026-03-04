@@ -16,11 +16,11 @@ const CourseSubmissionSchema = new mongoose.Schema(
     course: {
       type: String,
       required: true,
-      enum: [
-        "AI Engineering",
-        "Data Science & Gen AI",
-        "Data Analysis",
-      ],
+      // enum: [
+      //   "AI Engineering",
+      //   "Data Science & Gen AI",
+      //   "Data Analysis",
+      // ],
     },
   },
   { timestamps: true }
